@@ -1,0 +1,6 @@
+﻿cd public
+git init
+git remote add origin https://github.com/cchiux/cchiux.github.io.git                      
+git add .
+git commit -m "Deploy site"
+git push -f origin master  # 或 main
